@@ -1,0 +1,118 @@
+body{
+    font-family: "Poppins", sans-serif;
+    color: antiquewhite;
+    margin: 50px 50px 0 50px;
+    background-color: rgb(5, 5, 67);
+    display: flex;
+    flex-direction: column;
+    min-height: 95vh;
+}
+
+.magic{
+    color: azure;
+    font-size: 2rem;
+}
+
+.container{
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.logo{
+    font-family: 'Franklin Gothic Medium';
+    font-size: xx-large;
+    color: blueviolet;
+    justify-content: flex-start;
+}
+
+header{
+    display: block;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.navbar{
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content:flex-start;
+}
+li{
+    padding: 0px;
+    margin: 0px 10px;
+}
+
+.main {
+    display: inline-block;
+   
+    margin-top: 10px;
+  }
+  
+  h1 {
+    font-size: 2rem;
+  }
+  
+  footer {
+    background-color: aliceblue;
+    text-align: center;
+    color: rgb(129, 129, 171);
+  }
+
+.card{
+    width: 35%;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+.card img{
+    max-width: 200px;
+    border-radius: 25%;
+}
+.center{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (max-width <= 680px) {
+    .logo{
+        font-size: medium;
+        font-family: Georgia;
+        width: 100px;
+    }
+
+    .card img {
+        margin-bottom: 10px;
+        width: 50%;
+        display: inline;
+        object-fit: cover;
+    }
+
+    .card-conatiner{
+        display: grid ;
+        justify-content: center;
+    }
+
+    .card {
+        width: 100%;
+        display: block;
+        margin-bottom: 30px;
+        text-align: justify;
+      }
+    
+}
+
